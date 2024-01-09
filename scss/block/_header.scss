@@ -1,0 +1,59 @@
+:root{
+    --bg-header:white;
+    --color-icon:black;
+    --navbar-color:#837D88;
+    --modal-bg:#2C2830;
+}
+
+.mode{
+    --bg-header:black;
+    --color-icon:white;
+    --navbar-color:white;
+    --modal-bg:#e4e1ea;
+}
+body{
+    overflow-x: hidden;
+}
+.model{
+    transition: all 0.4s linear;
+    transform: translateX(100%);
+    background-color: var(--modal-bg);
+    color: var(--bg-header);
+}
+
+.show-modal{
+    transform: translateX(0);
+}
+
+.close{
+    display: none;
+}
+.remove-self{
+    display: none;
+}
+.open-close{
+    display: block;
+}
+
+
+
+
+
+.site-header{
+    background-color:var(--bg-header) ;
+}
+.header__logo-link{
+    color: var(--color-icon);
+}
+
+.navbar__link{
+    color: var(--navbar-color);
+}
+.view-plans{
+    color: var(--color-icon);
+    border-color: var(--color-icon);
+}
+#modeBtn{
+    color: var(--color-icon);
+    border-color: var(--color-icon);
+}

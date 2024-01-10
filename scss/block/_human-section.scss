@@ -62,3 +62,26 @@
     left: 735px;
     z-index: 5;
 }
+.human__zapas{
+    display: none;
+}
+@media only screen and (max-width:768px){
+    .human__zapas{
+        display: block;
+        padding-bottom: 93px;
+    }
+    .human-content-zapas{
+        
+        padding-top: 93px;
+        text-align: center;
+    }
+    .human{
+        display: none;
+    }
+    .human-text{
+        padding-bottom: 32px;
+    }
+    .human-link{
+        margin-top: 32px;
+    }
+}

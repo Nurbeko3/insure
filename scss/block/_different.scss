@@ -49,3 +49,23 @@
 .different-card + .different-card{
     margin-left: 30px;
 }
+@media only screen and (max-width:768px){
+    .different__section-title{
+        text-align: center;
+    }
+    .different__common-cards{
+        margin-left: 150px;
+        flex-direction: column;
+    }
+    .different-card{
+        width: 327px;
+        text-align: center;
+    }
+    .different-card + .different-card{
+        margin-top: 56px;
+        margin-left: 0px;
+    }
+    .different-img{
+        margin-left: 121px;
+    }
+}
